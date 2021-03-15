@@ -1,0 +1,23 @@
+.btn {
+    border-radius: 5px;
+    color: $white;
+    font-weight: bold;
+    padding: 1rem 3.2rem;
+    box-shadow: 0 0.05em 0.25em 0 rgba(0, 0, 0, .5);
+    transition: $transition-gen;
+
+    &--bg--blue {
+        background-color: $accent-color-blue;
+        &:hover {
+            background-color: lighten($accent-color-blue, 10%);
+        }
+    }
+    
+
+    &--bg--orange {
+        background-color: $accent-color-orange;
+        &:hover {
+            background-color: lighten($accent-color-orange, 10%);
+        }
+    }
+} 

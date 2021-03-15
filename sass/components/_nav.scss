@@ -1,0 +1,28 @@
+.nav {
+    
+    &__list {
+        list-style: none;
+        @media(max-width: 850px) {
+            display: none !important;
+        }
+    }
+    &__item {
+
+        &:nth-last-child(3)::after {
+            content: "";
+            display: inline-block;
+            border-right: 1px solid red;
+             
+        }
+    }
+    &__link {
+        padding: .5rem;
+        font-weight: bold;
+        color: $primary-text-color;
+        transition: $transition-gen;
+
+        &:hover {
+            color: $black;
+        }
+    }
+}

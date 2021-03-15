@@ -1,0 +1,19 @@
+.social {
+    display: flex;
+
+    &__item {
+        list-style: none;
+        &:not(:last-child) {
+            margin-right: clamp(1rem, calc(3vw + 1rem), 3.2rem);
+        }
+    }
+    &__link {
+        font-size: 1.3rem;
+        color: $accent-color-orange;
+        transition: $transition-gen;
+
+        &:hover {
+            color: $black;
+        }
+    }
+}

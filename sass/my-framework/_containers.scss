@@ -1,0 +1,75 @@
+/* 3 types of containers
+        1. container-fluid always stays at 100% width of its parent element
+        2. container is fixed layout which is that it starting from first break point, it
+            get assigned new max width
+        3. container with - and breakpoint name stays 100% width until specified breakpoint
+            when breakpoint reaches it is assigned max width
+
+*/
+
+.container-fluid,
+.container,
+.container-sm, 
+.container-md, 
+.container-lg, 
+.container-xl,
+.container-xxl {  
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: .7rem;
+    padding-right: .7rem;
+}
+
+
+
+
+
+// media query for different breakpoints
+
+@media(min-width: 576px) {
+    .container,
+    .container-sm {
+        max-width: 544px;
+    }
+    
+    
+}
+
+@media(min-width: 768px) {
+    .container,
+    .container-sm,
+    .container-md {
+        max-width: 720px;
+    }
+}
+     
+@media(min-width: 992px) {
+    .container,
+    .container-sm, 
+    .container-md,
+    .container-lg {
+        max-width: 960px;
+    }
+     
+}
+@media(min-width: 1200px) {
+    .container,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl {
+        max-width: 1140px;
+    }
+     
+}
+@media(min-width: 1400px) {
+    .container,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl,
+    .container-xxl {
+        max-width: 1320px;
+    }
+}

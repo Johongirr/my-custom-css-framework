@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Project Built with my CSS Framework</title>
+</head>
+<body class="page">
+    <header class="header-nav page__header-nav py-1">
+        <div class="container-lg">
+            <div class="row flex-nowrap justify-content-between align-items-center">
+                <div class="logo-box">
+                    <a href="#" class="logo-box__link">
+                        <img src="img/oding-logo.svg" alt="oding project logo" class="logo logo--big">
+                        <span class="logo-text logo-text--big">THE ODING PROJECT</span>
+                    </a>
+                </div>
+                <nav class="nav page__nav d-flex align-items-center">
+                    <ul class="nav__list d-flex">
+                        <li class="nav__item"><a href="#" class="nav__link">All Paths</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Community</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">FAQ</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Sign Up</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Log In</a></li>
+                    </ul>
+                    <a href="#" class="hamburger-btn">
+                        <span class="hamburger-line"></span><span class="hamburger-line"></span><span class="hamburger-line"></span>
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- main -->
+    <main class="main page__main">
+            <!-- hero -->
+        <section class="hero page__hero mt-5 text-center">
+            <header class="hero__header px-2 p-lg-0">
+                <h1 class="heading-level-1">
+                    Your Career in Web Development Starts Here
+                </h1>
+                <p class="paragraph hero__paragraph">
+                    Our full stack curriculum is free and supported by a passionate open source community.
+                </p>
+                <a href="#" class="btn btn--bg--blue hero__btn">View Full Curriculum</a>
+            </header>
+            <figure class="hero__img-box">
+                <img src="img/background-odin.svg" alt="img represent oding project" class="hero__img">
+            </figure>
+        </section>
+    
+        <!-- faq -->
+        <section class="faq page__faq">
+            <div class="container">
+            <header class="faq__header w-md-50 w-sm-75 mx-auto text-center">
+                <h2 class="heading-level-2">
+                    How it works
+                </h2>
+                <p class="paragraph faq__paragraph">
+                    This is the website we wish we had when we were learning on our own. We scour the internet looking for only the best resources to supplement your learning and present them in a logical order.
+                </p>
+            </header>
+            <div class="row justify-content-center align-items-baseline">
+                <div class="col-md-4">
+                    <article class="card-faq text-center mb-5 m-md-0">
+                        <figure class="card-faq__img-box">
+                            <img src="img/learn.svg" alt="img of book with script logo on it" class="card-faq__img">
+                        </figure>
+                        <h4 class="heading-level-4 text-center">
+                            Learn
+                        </h4>
+                        <p class="paragraph">
+                            Learn from a curriculum with the best curated online tutorials, blogs, and courses.
+                        </p>
+                    </article>
+                </div>
+                <div class="col-md-4">
+                    <article class="card-faq text-center mb-5 m-md-0">
+                        <figure class="card-faq__img-box">
+                            <img src="img/build.svg" alt="img of computer " class="card-faq__img">
+                        </figure>
+                        <h4 class="heading-level-4 text-center">
+                            Build
+                        </h4>
+                        <p class="paragraph">
+                            Build dozens of portfolio-worthy projects along the way, from simple scripts to full programs and deployed websites.
+                        </p>
+                    </article>
+                </div>
+                <div class="col-md-4">
+                    <article class="card-faq text-center mb-5 m-md-0">
+                        <figure class="card-faq__img-box">
+                            <img src="img/connect.svg" alt="img of a girl and a boy vikings" class="card-faq__img">
+                        </figure>
+                        <h4 class="card-faq__title text-center">
+                            Connect
+                        </h4>
+                        <p class="paragraph">
+                            You’re not alone. Learn and get help from our friendly community of beginner and experienced developers.
+                        </p>
+                    </article>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- curriculum -->
+        <section class="curriculum page__curriculum text-center">
+            <header class="curriculum__header">
+                <h2 class="curriculum__title">
+                    Learn everything you need to know to become a web developer
+                </h2>
+            </header>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-6 col-lg-4 mb-3">
+                        <article class="card">
+                            <a href="#" class="card__link">
+                                <figure class="card__img-box">
+                                    <img src="img/html-css.svg" alt="img of html and css" class="card__img">
+                                    <figcaption class="card__caption">
+                                        <h4 class="heading-level-4">
+                                            HTML + CSS
+                                        </h4>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </article>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-3">
+                        <article class="card">
+                            <a href="#" class="card__link">
+                                <figure class="card__img-box">
+                                    <img src="img/javascript.svg" alt="img of javascript" class="card__img">
+                                    <figcaption class="card__caption">
+                                        <h4 class="heading-level-4">
+                                            JAVASCRIPT
+                                        </h4>
+                                       
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </article>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-3">
+                        <article class="card">
+                            <a href="#" class="card__link">
+                                <figure class="card__img-box">
+                                    <img src="img/git.svg" alt="img of git" class="card__img">
+                                    <figcaption class="card__caption">
+     
+                                        <h4 class="heading-level-4">
+                                            GIT
+                                        </h4>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </article>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-3">
+                        <article class="card">
+                            <a href="#" class="card__link">
+                                <figure class="card__img-box">
+                                    <img src="img/databases.svg" alt="img of databases" class="card__img">
+                                    <figcaption class="card__caption">
+                                        <h4 class="heading-level-4">
+                                            DATABASES
+                                        </h4>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </article>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-3">
+                        <article class="card">
+                            <a href="#" class="card__link">
+                                <figure class="card__img-box">
+                                    <img src="img/ruby.svg" alt="img of ruby" class="card__img">
+                                    <figcaption class="card__caption">
+                                        <h4 class="heading-level-4">
+                                            RUBY
+                                        </h4>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </article>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-3">
+                        <article class="card">
+                            <a href="#" class="card__link">
+                                <figure class="card__img-box">
+                                    <img src="img/ruby-on-rails.svg" alt="img of ruby on rails" class="card__img">
+                                    <figcaption class="card__caption">
+                                        <h4 class="heading-level-4">
+                                            RUBY ON RAILS
+                                        </h4>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </article>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-3">
+                        <article class="card">
+                            <a href="#" class="card__link">
+                                <figure class="card__img-box">
+                                    <img src="img/nodejs.svg" alt="img of node js" class="card__img">
+                                    <figcaption class="card__caption">
+                                        <h4 class="heading-level-4">
+                                            NODEJS
+                                        </h4>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </article>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <article class="card">
+                            <a href="#" class="card__link">
+                                <figure class="card__img-box">
+                                    <img src="img/getting-hired.svg" alt="img of getting hired" class="card__img">
+                                    <figcaption class="card__caption">
+                                        <h4 class="heading-level-4">
+                                            GETTING HIRED
+                                        </h4>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+            </div>
+            <div class="curriculum__btn-box text-center">
+                <a href="#" class="btn btn--bg--orange">Get Started</a>
+            </div>
+        </section>
+        <!-- reviews -->
+        <section class="reviews">
+            <header class="reviews__header text-center">
+                <h2 class="heading-level-2">
+                    Success Stories
+                </h2>
+            </header>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-6 mb-5">
+                        <article class="reviews-box reviews__reviews-box">
+                            <div class="d-flex">
+                                <figure class="reviews-box__img-box">
+                                    <img src="img/odin-review.jpg" alt="img of odin project reviewer" class="reviews-box__img">
+                                </figure>
+                                <div class="reviews-box__text-box">
+                                    <a href="#" class="reviews-box__reviewer-name">
+                                        Rob Pando
+                                    </a>
+                                    <p class="paragraph reviews-box__paragraph">
+                                        TOP was a perfect match for my learning style. Not walking me through an entire project but actually forcing me to figure it out on my own, by pointing me...
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-xl-6 mb-5">
+                        <article class="reviews-box reviews__reviews-box">
+                            <div class="d-flex">
+                                <figure class="reviews-box__img-box">
+                                    <img src="img/odin-review-2.jpg" alt="img of odin project reviewer" class="reviews-box__img">
+                                </figure>
+                                <div class="reviews-box__text-box">
+                                    <a href="#" class="reviews-box__reviewer-name">
+                                        Olivia
+                                    </a>
+                                    <p class="paragraph reviews-box__paragraph">
+                                        Before I found TOP, I was jumping from Coursera course to Coursera course without really any guidance or community. I wanted to get a real development job and not operating...
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-xl-6 mb-5">
+                        <article class="reviews-box reviews__reviews-box">
+                            <div class="d-flex">
+                                <figure class="reviews-box__img-box">
+                                    <img src="img/odin-review-3.jpg" alt="img of odin project reviewer" class="reviews-box__img">
+                                </figure>
+                                <div class="reviews-box__text-box">
+                                    <a href="#" class="reviews-box__reviewer-name">
+                                        
+                                        Cody Loyd       
+                                    </a>
+                                    <p class="paragraph reviews-box__paragraph">
+                                        Before I started the Odin Project I had literally ZERO programming experience. After almost exactly a year of working through the program, I was offered a job as a front...
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-xl-6 mb-5">
+                        <article class="reviews-box reviews__reviews-box">
+                            <div class="d-flex">
+                                <figure class="reviews-box__img-box">
+                                    <img src="img/odin-review-4.jpg" alt="img of odin project reviewer" class="reviews-box__img">
+                                </figure>
+                                <div class="reviews-box__text-box">
+                                    <a href="#" class="reviews-box__reviewer-name">
+                                        William Kennedy
+                                    </a>
+                                    <p class="paragraph reviews-box__paragraph">
+                                        The Odin Project changed my life and that is not an understatement. In November 2013, I made a commitment to myself to become a self-taught developer so I threw myself...
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews__text-box text-center">
+                <a href="#" class="reviews__success-stories-link">
+                    Read more success stories
+                </a>
+                <p class="reviews__cta-heading">
+                    Start learning for free now!
+                </p>
+                <a href="#" class="btn btn--bg--blue reviews__btn">Sign Up</a>
+            </div>
+        </section>
+       </div>
+    </main>
+    <!-- footer -->
+    <footer class="footer page__footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 d-none d-sm-block">
+                    <div class="logo-box">
+                        <a href="#" class="logo-box__link">
+                            <img src="img/oding-logo.svg" alt="oding project logo" class="logo logo--small">
+                            <span class="logo-text logo-text--small">THE ODING PROJECT</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4">
+                    <ul class="social">
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <i class="fab fa-github social__icon"></i>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <i class="fab fa-discord social__icon"></i>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <i class="fab fa-facebook-f social__icon"></i>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <i class="fab fa-twitter social__icon"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-4">
+                    <ul class="footer__list">
+                        <div class="row">
+                            <div class="col-6">
+                                <li class="footer__item"><a href="#" class="footer__link">About</a></li>
+                                <li class="footer__item"><a href="#" class="footer__link">FAQ</a></li>
+                                <li class="footer__item"><a href="#" class="footer__link">Blog</a></li>
+                            </div>
+                            <div class="col-6">
+                                <li class="footer__item"><a href="#" class="footer__link">Success Stories</a></li>
+                                <li class="footer__item"><a href="#" class="footer__link">Contribute</a></li>
+                                <li class="footer__item"><a href="#" class="footer__link">Terms of Use</a></li>
+                            </div>
+                        </div>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- fixed  -->
+    <div class="position-fixed bottom-0 right-0">
+        <a href="#" class="chat-btn chat-btn--big">
+            <a href="#" class="chat-btn chat-btn--sm"></a>
+        </a>
+    </div>
+</body>
+</html>

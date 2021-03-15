@@ -1,0 +1,83 @@
+.page {
+    
+    &__faq {
+        margin: 5rem 0;
+    }
+}
+.header-nav {
+
+}
+.hero {
+
+    &__btn {
+        margin-top: 4.5rem;
+        margin-bottom: 2.7rem;
+    }
+}
+.faq {
+
+    &__header {
+        margin-bottom: 6.2rem;
+    }
+    &__paragraph {
+        margin-top: 2.2rem;
+    }
+}
+
+.curriculum {
+    padding: 4rem 0;
+    background-color: $bg-color;
+
+    &__header {
+        margin-bottom: 4rem;
+    }
+    &__btn-box {
+        padding: 5rem 0 2rem 0;
+    }
+}
+
+.reviews {
+    padding: 4.5rem 0;
+    background: linear-gradient(transparent, rgba($bg-color, .9));
+
+    &__header {
+        margin-bottom: 6rem;
+    }
+    &__success-stories-link {
+        font-size: .9rem;
+        color: $primary-text-color;
+        text-decoration: underline;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 1px;
+        transition: $transition-gen;
+        padding-bottom: 4rem;
+
+        &:hover {
+            color: $black;
+        }
+    }
+    &__cta-heading {
+        font-size: 2.2rem;
+        color: rgba($primary-text-color, .8);
+        padding-bottom: 3rem;
+    }
+}
+.footer {
+    padding: 5rem 0;
+    
+    &__list {
+        list-style: none;
+    }   
+    &__item {
+
+    } 
+    &__link {
+        color: $primary-text-color;
+        transition: $transition-gen;
+        font-weight: bold;
+
+        &:hover {
+            color: $black;
+        }
+    }
+}

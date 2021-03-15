@@ -1,0 +1,17 @@
+.hamburger-btn {
+
+    .hamburger-line {
+        display: block;
+        width: 1.5rem;
+        height: 3px;
+        background-color: $accent-color-blue;
+        display: none;
+        @media(max-width:850px) {
+            display: block;
+        }
+        
+        &:not(:last-child) {
+            margin-bottom: 3px;
+        }
+    }
+}

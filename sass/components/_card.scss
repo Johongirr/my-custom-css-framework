@@ -1,0 +1,11 @@
+.card {
+    padding: .7rem;
+    background-color: $white;
+    box-shadow: 0 0 1rem rgba($black, .05);
+    @media(max-width: 576px) {
+        width: 20rem;
+    }
+    &__img {
+        width: clamp(50%, calc(10vw + 1rem), 100%);
+    }
+}

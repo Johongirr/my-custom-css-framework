@@ -1,0 +1,12 @@
+@mixin flexbox-xy-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin clearFix {
+    &::after {
+        content: "";
+        clear: both;
+        display: block;
+    }
+}

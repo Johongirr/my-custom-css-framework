@@ -1,0 +1,17 @@
+.reviews-box {
+
+    &__img {
+        width: clamp(10rem, calc(15vh + 2rem), 15rem);
+        border-radius: 100%;
+    }
+    &__reviewer-name {
+        color: $accent-color-orange;
+
+    }
+    &__text-box {
+        margin-left: 1rem;
+    }
+    &__paragraph {
+        list-style: 1.4
+    }
+}

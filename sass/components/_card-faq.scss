@@ -1,0 +1,10 @@
+.card-faq {
+
+    &__img-box {
+        margin-bottom: clamp(1rem, calc(2vw + .5rem), 2rem)
+    }
+    &__img {
+        display: inline-block;
+        height: clamp(6rem, calc(10vw + 3rem), 10rem);
+    }
+}
