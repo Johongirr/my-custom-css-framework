@@ -1,7 +1,7 @@
 # Custom CSS Framework
 
 > ### Project part of Odin [curriculum](https://www.theodinproject.com/lessons/design-your-own-grid-based-framework)
-> ### Visit to [view]() a project
+> ### Visit to [view](https://johongirr.github.io/my-custom-css-framework/) a project
 
 ## Built with
  * HTML5
