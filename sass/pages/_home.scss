@@ -4,9 +4,7 @@
         margin: 5rem 0;
     }
 }
-.header-nav {
-
-}
+ 
 .hero {
 
     &__btn {
@@ -79,5 +77,15 @@
         &:hover {
             color: $black;
         }
+    }
+}
+
+.page {
+    .square {
+        padding: 5rem;
+        background-color: brown;
+        font-size: 2rem;
+        color: #fff;
+        text-align: center;
     }
 }
