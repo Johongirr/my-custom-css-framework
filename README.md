@@ -114,7 +114,7 @@ Give a :star: if u like this project
 
 
 ## Contributing
-Contributions, [issues]() and feature requests are welcome!
+Contributions, [issues](https://github.com/Johongirr/my-custom-css-framework/issues) and feature requests are welcome!
 
 
 ## Licence
