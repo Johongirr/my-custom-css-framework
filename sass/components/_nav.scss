@@ -7,16 +7,17 @@
         }
     }
     &__item {
-
-        &:nth-last-child(3)::after {
-            content: "";
-            display: inline-block;
-            border-right: 1px solid red;
+        
+        &:not(:last-child) {
+            margin-right: 1rem;
+        }
+        &:nth-last-child(3) .nav__link{
+            padding-right: 1rem;
+            border-right: 1px solid $primary-text-color;
              
         }
     }
     &__link {
-        padding: .5rem;
         font-weight: bold;
         color: $primary-text-color;
         transition: $transition-gen;

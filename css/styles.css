@@ -4090,13 +4090,14 @@ body {
     .nav__list {
       display: none !important; } }
 
-.nav__item:nth-last-child(3)::after {
-  content: "";
-  display: inline-block;
-  border-right: 1px solid red; }
+.nav__item:not(:last-child) {
+  margin-right: 1rem; }
+
+.nav__item:nth-last-child(3) .nav__link {
+  padding-right: 1rem;
+  border-right: 1px solid rgba(74, 74, 74, 0.7); }
 
 .nav__link {
-  padding: .5rem;
   font-weight: bold;
   color: rgba(74, 74, 74, 0.7);
   transition: all 0.3s ease-in-out; }
